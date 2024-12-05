@@ -3,7 +3,7 @@ A collection of scripts I've written over time to help with tooling or tasks
 
 Scripts:
 
-1. pan-scan.py - This is a script I wrote to scan Firestore DBs in GCP for finding Credit Cards or PAN numbers.  I saw a few variations in a DB and based the regexes off of those. Adjust the regexes for your patterns.
+1. creditcard-scan.py - This is a script I wrote to scan Firestore DBs in GCP for finding Credit Cards or PAN numbers.  I saw a few variations in a DB and based the regexes off of those. Adjust the regexes for your patterns.
    
 2. gcp_users_groups_report.py - This scans all Projects in GCP for Groups and Users and Service Accounts.  The info is flattened.  Helpful for audits.
 
